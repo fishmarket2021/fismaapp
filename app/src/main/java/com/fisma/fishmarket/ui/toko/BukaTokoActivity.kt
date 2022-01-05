@@ -1,11 +1,11 @@
-package com.inyongtisto.fishmarket.ui.toko
+package com.fisma.fishmarket.ui.toko
 
 import android.os.Bundle
-import com.inyongtisto.fishmarket.core.data.source.remote.network.State
-import com.inyongtisto.fishmarket.core.data.source.remote.request.CreateTokoRequest
-import com.inyongtisto.fishmarket.databinding.ActivityBukaTokoBinding
-import com.inyongtisto.fishmarket.ui.base.MyActivity
-import com.inyongtisto.fishmarket.util.Prefs
+import com.fisma.fishmarket.core.data.source.remote.network.State
+import com.fisma.fishmarket.core.data.source.remote.request.CreateTokoRequest
+import com.fisma.fishmarket.ui.base.MyActivity
+import com.fisma.fishmarket.util.Prefs
+import com.fisma.fishmarket.databinding.ActivityBukaTokoBinding
 import com.inyongtisto.myhelper.extension.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
 

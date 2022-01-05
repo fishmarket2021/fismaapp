@@ -1,4 +1,4 @@
-package com.inyongtisto.fishmarket.ui.base
+package com.fisma.fishmarket.ui.base
 
 import com.inyongtisto.myhelper.base.BaseActivity
 

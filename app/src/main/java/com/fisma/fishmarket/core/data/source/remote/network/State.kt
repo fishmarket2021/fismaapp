@@ -1,4 +1,4 @@
-package com.inyongtisto.fishmarket.core.data.source.remote.network
+package com.fisma.fishmarket.core.data.source.remote.network
 
 enum class State {
     SUCCESS, ERROR, LOADING

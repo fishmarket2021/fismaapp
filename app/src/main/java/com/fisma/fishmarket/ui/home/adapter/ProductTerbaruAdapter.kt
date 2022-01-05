@@ -1,11 +1,11 @@
-package com.inyongtisto.fishmarket.ui.home.adapter
+package com.fisma.fishmarket.ui.home.adapter
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.inyongtisto.fishmarket.core.data.source.model.Product
-import com.inyongtisto.fishmarket.databinding.ItemHomeProdukTerbaruBinding
+import com.fisma.fishmarket.core.data.source.model.Product
+import com.fisma.fishmarket.databinding.ItemHomeProdukTerbaruBinding
 import com.inyongtisto.myhelper.extension.coret
 import com.inyongtisto.myhelper.extension.toGone
 import com.inyongtisto.myhelper.extension.toRupiah

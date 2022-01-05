@@ -1,10 +1,10 @@
-package com.inyongtisto.fishmarket.core.data.source.remote
+package com.fisma.fishmarket.core.data.source.remote
 
-import com.inyongtisto.fishmarket.core.data.source.remote.network.ApiService
-import com.inyongtisto.fishmarket.core.data.source.remote.request.CreateTokoRequest
-import com.inyongtisto.fishmarket.core.data.source.remote.request.LoginRequest
-import com.inyongtisto.fishmarket.core.data.source.remote.request.RegisterRequest
-import com.inyongtisto.fishmarket.core.data.source.remote.request.UpdateProfileRequest
+import com.fisma.fishmarket.core.data.source.remote.network.ApiService
+import com.fisma.fishmarket.core.data.source.remote.request.CreateTokoRequest
+import com.fisma.fishmarket.core.data.source.remote.request.LoginRequest
+import com.fisma.fishmarket.core.data.source.remote.request.RegisterRequest
+import com.fisma.fishmarket.core.data.source.remote.request.UpdateProfileRequest
 import okhttp3.MultipartBody
 
 class RemoteDataSource(private val api: ApiService) {

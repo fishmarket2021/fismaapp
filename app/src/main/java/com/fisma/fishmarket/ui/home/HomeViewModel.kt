@@ -1,12 +1,12 @@
-package com.inyongtisto.fishmarket.ui.home
+package com.fisma.fishmarket.ui.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.inyongtisto.fishmarket.core.data.source.local.DummyData
-import com.inyongtisto.fishmarket.core.data.source.model.Category
-import com.inyongtisto.fishmarket.core.data.source.model.Product
-import com.inyongtisto.fishmarket.core.data.source.model.Slider
+import com.fisma.fishmarket.core.data.source.local.DummyData
+import com.fisma.fishmarket.core.data.source.model.Category
+import com.fisma.fishmarket.core.data.source.model.Product
+import com.fisma.fishmarket.core.data.source.model.Slider
 
 class HomeViewModel : ViewModel() {
 

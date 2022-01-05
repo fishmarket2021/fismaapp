@@ -1,11 +1,11 @@
-package com.inyongtisto.fishmarket.ui.auth
+package com.fisma.fishmarket.ui.auth
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.inyongtisto.fishmarket.ui.navigation.NavigationActivity
-import com.inyongtisto.fishmarket.core.data.source.remote.network.State
-import com.inyongtisto.fishmarket.core.data.source.remote.request.RegisterRequest
-import com.inyongtisto.fishmarket.databinding.ActivityRegisterBinding
+import com.fisma.fishmarket.ui.navigation.NavigationActivity
+import com.fisma.fishmarket.core.data.source.remote.network.State
+import com.fisma.fishmarket.core.data.source.remote.request.RegisterRequest
+import com.fisma.fishmarket.databinding.ActivityRegisterBinding
 import com.inyongtisto.myhelper.extension.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
 

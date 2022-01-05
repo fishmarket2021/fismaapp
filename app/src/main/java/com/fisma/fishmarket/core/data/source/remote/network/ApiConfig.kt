@@ -1,7 +1,7 @@
-package com.inyongtisto.fishmarket.core.data.source.remote.network
+package com.fisma.fishmarket.core.data.source.remote.network
 
 import com.google.gson.GsonBuilder
-import com.inyongtisto.fishmarket.util.Constants
+import com.fisma.fishmarket.util.Constants
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit

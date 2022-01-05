@@ -1,4 +1,4 @@
-package com.inyongtisto.fishmarket.ui.akun
+package com.fisma.fishmarket.ui.akun
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

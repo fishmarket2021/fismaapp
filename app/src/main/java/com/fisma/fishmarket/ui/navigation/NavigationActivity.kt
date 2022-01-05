@@ -1,4 +1,4 @@
-package com.inyongtisto.fishmarket.ui.navigation
+package com.fisma.fishmarket.ui.navigation
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,10 +7,10 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.setupWithNavController
-import com.inyongtisto.fishmarket.R
-import com.inyongtisto.fishmarket.databinding.ActivityNavigationBinding
-import com.inyongtisto.fishmarket.ui.auth.LoginActivity
-import com.inyongtisto.fishmarket.util.Prefs
+import com.fisma.fishmarket.ui.auth.LoginActivity
+import com.fisma.fishmarket.util.Prefs
+import com.fisma.fishmarket.R
+import com.fisma.fishmarket.databinding.ActivityNavigationBinding
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class NavigationActivity : AppCompatActivity() {

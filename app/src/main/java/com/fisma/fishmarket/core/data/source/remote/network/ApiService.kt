@@ -1,13 +1,13 @@
-package com.inyongtisto.fishmarket.core.data.source.remote.network
+package com.fisma.fishmarket.core.data.source.remote.network
 
-import com.inyongtisto.fishmarket.core.data.source.remote.request.CreateTokoRequest
-import com.inyongtisto.fishmarket.core.data.source.remote.request.LoginRequest
-import com.inyongtisto.fishmarket.core.data.source.remote.request.RegisterRequest
-import com.inyongtisto.fishmarket.core.data.source.remote.request.UpdateProfileRequest
-import com.inyongtisto.fishmarket.core.data.source.remote.response.BaseResponse
-import com.inyongtisto.fishmarket.core.data.source.remote.response.LoginResponse
-import com.inyongtisto.fishmarket.core.data.source.remote.response.ProductResponse
-import com.inyongtisto.fishmarket.core.data.source.remote.response.TokoResponse
+import com.fisma.fishmarket.core.data.source.remote.request.CreateTokoRequest
+import com.fisma.fishmarket.core.data.source.remote.request.LoginRequest
+import com.fisma.fishmarket.core.data.source.remote.request.RegisterRequest
+import com.fisma.fishmarket.core.data.source.remote.request.UpdateProfileRequest
+import com.fisma.fishmarket.core.data.source.remote.response.BaseResponse
+import com.fisma.fishmarket.core.data.source.remote.response.LoginResponse
+import com.fisma.fishmarket.core.data.source.remote.response.ProductResponse
+import com.fisma.fishmarket.core.data.source.remote.response.TokoResponse
 import okhttp3.MultipartBody
 import retrofit2.Response
 import retrofit2.http.*

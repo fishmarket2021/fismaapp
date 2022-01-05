@@ -1,10 +1,10 @@
-package com.inyongtisto.fishmarket.ui.toko
+package com.fisma.fishmarket.ui.toko
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.inyongtisto.fishmarket.databinding.ActivityTokoSayaBinding
-import com.inyongtisto.fishmarket.util.Constants
-import com.inyongtisto.fishmarket.util.Prefs
+import com.fisma.fishmarket.util.Constants
+import com.fisma.fishmarket.util.Prefs
+import com.fisma.fishmarket.databinding.ActivityTokoSayaBinding
 import com.inyongtisto.myhelper.extension.getInitial
 import com.inyongtisto.myhelper.extension.setToolbar
 import com.squareup.picasso.Picasso

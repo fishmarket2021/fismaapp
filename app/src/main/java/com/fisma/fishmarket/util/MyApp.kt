@@ -1,10 +1,10 @@
-package com.inyongtisto.fishmarket.util
+package com.fisma.fishmarket.util
 
 import android.app.Application
 import com.chibatching.kotpref.Kotpref
-import com.inyongtisto.fishmarket.core.di.appModule
-import com.inyongtisto.fishmarket.core.di.repositoryModule
-import com.inyongtisto.fishmarket.core.di.viewModelModule
+import com.fisma.fishmarket.core.di.appModule
+import com.fisma.fishmarket.core.di.repositoryModule
+import com.fisma.fishmarket.core.di.viewModelModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 

@@ -1,4 +1,4 @@
-package com.inyongtisto.fishmarket.ui.home
+package com.fisma.fishmarket.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,11 +6,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.inyongtisto.fishmarket.databinding.FragmentHomeBinding
-import com.inyongtisto.fishmarket.ui.home.adapter.CategoryAdapter
-import com.inyongtisto.fishmarket.ui.home.adapter.ProductTerbaruAdapter
-import com.inyongtisto.fishmarket.ui.home.adapter.ProductTerlarisAdapter
-import com.inyongtisto.fishmarket.ui.home.adapter.SliderAdapter
+import com.fisma.fishmarket.ui.home.adapter.CategoryAdapter
+import com.fisma.fishmarket.ui.home.adapter.ProductTerbaruAdapter
+import com.fisma.fishmarket.ui.home.adapter.ProductTerlarisAdapter
+import com.fisma.fishmarket.ui.home.adapter.SliderAdapter
+import com.fisma.fishmarket.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
 

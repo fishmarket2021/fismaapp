@@ -1,16 +1,16 @@
-package com.inyongtisto.fishmarket.ui.updateProfile
+package com.fisma.fishmarket.ui.updateProfile
 
 import android.app.Activity
 import android.os.Bundle
 import androidx.activity.result.contract.ActivityResultContracts
 import com.github.drjacky.imagepicker.ImagePicker
-import com.inyongtisto.fishmarket.core.data.source.remote.network.State
-import com.inyongtisto.fishmarket.core.data.source.remote.request.UpdateProfileRequest
-import com.inyongtisto.fishmarket.databinding.ActivityUpdateProfileBinding
-import com.inyongtisto.fishmarket.ui.auth.AuthViewModel
-import com.inyongtisto.fishmarket.ui.base.MyActivity
-import com.inyongtisto.fishmarket.util.Constants
-import com.inyongtisto.fishmarket.util.Prefs
+import com.fisma.fishmarket.core.data.source.remote.network.State
+import com.fisma.fishmarket.core.data.source.remote.request.UpdateProfileRequest
+import com.fisma.fishmarket.ui.auth.AuthViewModel
+import com.fisma.fishmarket.ui.base.MyActivity
+import com.fisma.fishmarket.util.Constants
+import com.fisma.fishmarket.util.Prefs
+import com.fisma.fishmarket.databinding.ActivityUpdateProfileBinding
 import com.inyongtisto.myhelper.extension.*
 import com.squareup.picasso.Picasso
 import org.koin.androidx.viewmodel.ext.android.viewModel

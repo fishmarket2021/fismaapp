@@ -1,8 +1,8 @@
-package com.inyongtisto.fishmarket.core.di
+package com.fisma.fishmarket.core.di
 
-import com.inyongtisto.fishmarket.ui.auth.AuthViewModel
-import com.inyongtisto.fishmarket.ui.navigation.NavViewModel
-import com.inyongtisto.fishmarket.ui.toko.TokoViewModel
+import com.fisma.fishmarket.ui.auth.AuthViewModel
+import com.fisma.fishmarket.ui.navigation.NavViewModel
+import com.fisma.fishmarket.ui.toko.TokoViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 

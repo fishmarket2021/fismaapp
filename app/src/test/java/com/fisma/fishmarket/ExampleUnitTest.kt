@@ -1,4 +1,4 @@
-package com.inyongtisto.fishmarket
+package com.fisma.fishmarket
 
 import org.junit.Test
 

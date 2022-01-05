@@ -1,4 +1,4 @@
-package com.inyongtisto.fishmarket.core.data.source.remote.request
+package com.fisma.fishmarket.core.data.source.remote.request
 
 data class LoginRequest(
     val email: String,

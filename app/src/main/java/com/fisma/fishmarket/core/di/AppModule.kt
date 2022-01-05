@@ -1,8 +1,8 @@
-package com.inyongtisto.fishmarket.core.di
+package com.fisma.fishmarket.core.di
 
-import com.inyongtisto.fishmarket.core.data.source.local.LocalDataSource
-import com.inyongtisto.fishmarket.core.data.source.remote.RemoteDataSource
-import com.inyongtisto.fishmarket.core.data.source.remote.network.ApiConfig
+import com.fisma.fishmarket.core.data.source.local.LocalDataSource
+import com.fisma.fishmarket.core.data.source.remote.RemoteDataSource
+import com.fisma.fishmarket.core.data.source.remote.network.ApiConfig
 import org.koin.dsl.module
 
 val appModule = module {

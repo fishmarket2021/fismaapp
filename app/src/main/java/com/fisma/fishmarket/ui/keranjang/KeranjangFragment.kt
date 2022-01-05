@@ -1,4 +1,4 @@
-package com.inyongtisto.fishmarket.ui.keranjang
+package com.fisma.fishmarket.ui.keranjang
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.inyongtisto.fishmarket.databinding.FragmentAkunBinding
+import com.fisma.fishmarket.databinding.FragmentAkunBinding
 
 class KeranjangFragment : Fragment() {
 

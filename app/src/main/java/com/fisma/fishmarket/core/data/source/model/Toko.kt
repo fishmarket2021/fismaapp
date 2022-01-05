@@ -1,4 +1,4 @@
-package com.inyongtisto.fishmarket.core.data.source.model
+package com.fisma.fishmarket.core.data.source.model
 
 data class Toko(
     val id: Int?,

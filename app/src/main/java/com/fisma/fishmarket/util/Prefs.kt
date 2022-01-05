@@ -1,7 +1,7 @@
-package com.inyongtisto.fishmarket.util
+package com.fisma.fishmarket.util
 
 import com.chibatching.kotpref.KotprefModel
-import com.inyongtisto.fishmarket.core.data.source.model.User
+import com.fisma.fishmarket.core.data.source.model.User
 import com.inyongtisto.myhelper.extension.toJson
 import com.inyongtisto.myhelper.extension.toModel
 

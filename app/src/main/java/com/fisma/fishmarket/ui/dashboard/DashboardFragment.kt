@@ -1,4 +1,4 @@
-package com.inyongtisto.fishmarket.ui.dashboard
+package com.fisma.fishmarket.ui.dashboard
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.inyongtisto.fishmarket.databinding.FragmentDashboardBinding
+import com.fisma.fishmarket.databinding.FragmentDashboardBinding
 
 class DashboardFragment : Fragment() {
 

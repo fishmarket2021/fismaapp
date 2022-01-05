@@ -1,21 +1,21 @@
-package com.inyongtisto.fishmarket.core.data.source.local
+package com.fisma.fishmarket.core.data.source.local
 
-import com.inyongtisto.fishmarket.R
-import com.inyongtisto.fishmarket.core.data.source.model.Category
-import com.inyongtisto.fishmarket.core.data.source.model.Product
-import com.inyongtisto.fishmarket.core.data.source.model.Slider
+import com.fisma.fishmarket.core.data.source.model.Category
+import com.fisma.fishmarket.core.data.source.model.Product
+import com.fisma.fishmarket.core.data.source.model.Slider
+import com.fisma.fishmarket.R
 
 object DummyData {
     val listCategory = listOf(
-            Category(id = "1", name = "Elektronik", image = R.drawable.asset_elektronik),
-            Category(id = "2", name = "Handphone", image = R.drawable.asset_handphone),
-            Category(id = "3", name = "Keuangan", image = R.drawable.asset_keuangan),
-            Category(id = "4", name = "Komputer", image = R.drawable.asset_komputer),
-            Category(id = "5", name = "Perawatan Hewan", image = R.drawable.asset_perawatan_hewan),
-            Category(id = "6", name = "Topup", image = R.drawable.asset_topup),
-            Category(id = "7", name = "Rumah Tangga", image = R.drawable.asset_rumah_tangga),
-            Category(id = "8", name = "Travel", image = R.drawable.asset_travel),
-            Category(id = "9", name = "Komputer", image = R.drawable.asset_komputer),
+            Category(id = "1", name = "Ikan", image = R.drawable.ikan),
+            Category(id = "2", name = "Udang", image = R.drawable.udang),
+            Category(id = "3", name = "Kepiting", image = R.drawable.kepiting),
+            Category(id = "4", name = "Kerang", image = R.drawable.kerang),
+            Category(id = "5", name = "Pakan", image = R.drawable.pakan),
+            Category(id = "6", name = "Peralatan ", image = R.drawable.alat),
+            Category(id = "7", name = "Makanan  ", image = R.drawable.makanan),
+//            Category(id = "8", name = "Travel", image = R.drawable.asset_travel),
+//            Category(id = "9", name = "Komputer", image = R.drawable.asset_komputer),
             Category(id = "10", name = "Semua", image = R.drawable.asset_semua),
     )
 
@@ -26,13 +26,13 @@ object DummyData {
     )
 
     val listProduct = listOf(
-            Product(id = "1", name = "OPPO A16 RAM 3/32GB | 13MP TRIPLE CAMERA | FINGERPRINT | 5000mAh - Space Silver", harga = 1859000, pengirirman = "Tangerang", terjual = 150, rating = 5.0, discount = 0, grosir = true, image = R.drawable.asset_produk1),
-            Product(id = "2", name = "Apple Mac Mini M1 Chip 2020 Customise 16GB RAM - 16GB/256GB", harga = 15650000, pengirirman = "Tangerang", terjual = 150, rating = 5.0, discount = 10, grosir = true, image = R.drawable.asset_produk2),
-            Product(id = "3", name = "4 in 1 Type C Hub To HDMI VGA USB 3.0", harga = 245000, pengirirman = "Jakrta Utara", terjual = 530, rating = 5.0, discount = 15, grosir = false, image = R.drawable.asset_produk3),
-            Product(id = "4", name = "Paket Holder Gimbal Stabilizer & Mini LED", harga = 165000, pengirirman = "Kab.Malang", terjual = 1150, rating = 5.0, discount = 0, grosir = true, image = R.drawable.asset_produk4),
-            Product(id = "5", name = "Fujifilm XA20 / X-A20 kit XC15-45mm Garansi Resmi Fujifilm Indonesia - Black", harga = 4999000, pengirirman = "Tangerang", terjual = 68, rating = 5.0, discount = 15, grosir = false, image = R.drawable.asset_produk5),
-            Product(id = "6", name = "ALLIN BOX TELESIN 3 Slot Charger With 2-Pack Baterai Gopro Hero 8 7 6", harga = 549000, pengirirman = "Bogor", terjual = 150, rating = 5.0, discount = 20, grosir = false, image = R.drawable.asset_produk6),
-            Product(id = "7", name = "Kamera Mirrorless Sony Alpha A5100 kit 16mm Sony", harga = 5350000, pengirirman = "Jakarta Pusat", terjual = 22, rating = 5.0, discount = 0, grosir = true, image = R.drawable.asset_produk7),
-            Product(id = "8", name = "Sony ILCE-6500 / Alpha A6500 Body - Black", harga = 12990000, pengirirman = "Tangerang", terjual = 11, rating = 5.0, discount = 10, grosir = false, image = R.drawable.asset_produk8),
+            Product(id = "1", name = "Daging Ikan Salmon Fillet | Potong | 150 Gram | Segar", harga = 98000, pengirirman = "Bawean", terjual = 150, rating = 5.0, discount = 0, grosir = true, image = R.drawable.asset_produk1),
+            Product(id = "2", name = "Daging Ikan Red Bass Fillet | 250 Gram", harga = 45000, pengirirman = "Gresik", terjual = 150, rating = 5.0, discount = 10, grosir = true, image = R.drawable.asset_produk2),
+            Product(id = "3", name = "Ikan Tuna | 1 ekor | 3 Kg", harga = 100000, pengirirman = "Paciran", terjual = 530, rating = 5.0, discount = 15, grosir = false, image = R.drawable.asset_produk3),
+            Product(id = "4", name = "Cumi Cumi", harga = 165000, pengirirman = "Tuban", terjual = 1150, rating = 5.0, discount = 0, grosir = true, image = R.drawable.asset_produk4),
+            Product(id = "5", name = "Kerapu Macan", harga = 200000, pengirirman = "Brondong", terjual = 68, rating = 5.0, discount = 15, grosir = false, image = R.drawable.asset_produk5),
+            Product(id = "6", name = "Udang Lopster", harga = 150000, pengirirman = "Bawean", terjual = 150, rating = 5.0, discount = 20, grosir = false, image = R.drawable.asset_produk6),
+            Product(id = "7", name = "Udang Vanami", harga = 85000, pengirirman = "Karang Geneng", terjual = 22, rating = 5.0, discount = 0, grosir = true, image = R.drawable.asset_produk7),
+            Product(id = "8", name = "Ikan Bandeng | 1 Kg", harga = 30000, pengirirman = "Karang Geneng", terjual = 11, rating = 5.0, discount = 10, grosir = false, image = R.drawable.asset_produk8),
     )
 }

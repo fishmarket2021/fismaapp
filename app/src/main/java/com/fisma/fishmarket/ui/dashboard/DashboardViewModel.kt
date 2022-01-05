@@ -1,4 +1,4 @@
-package com.inyongtisto.fishmarket.ui.dashboard
+package com.fisma.fishmarket.ui.dashboard
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

@@ -1,4 +1,4 @@
-package com.inyongtisto.fishmarket.ui.akun
+package com.fisma.fishmarket.ui.akun
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,13 +6,13 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.inyongtisto.fishmarket.ui.navigation.NavigationActivity
-import com.inyongtisto.fishmarket.databinding.FragmentAkunBinding
-import com.inyongtisto.fishmarket.ui.toko.BukaTokoActivity
-import com.inyongtisto.fishmarket.ui.toko.TokoSayaActivity
-import com.inyongtisto.fishmarket.ui.updateProfile.UpdateProfileActivity
-import com.inyongtisto.fishmarket.util.Constants.USER_URL
-import com.inyongtisto.fishmarket.util.Prefs
+import com.fisma.fishmarket.ui.navigation.NavigationActivity
+import com.fisma.fishmarket.ui.toko.BukaTokoActivity
+import com.fisma.fishmarket.ui.toko.TokoSayaActivity
+import com.fisma.fishmarket.ui.updateProfile.UpdateProfileActivity
+import com.fisma.fishmarket.util.Constants.USER_URL
+import com.fisma.fishmarket.util.Prefs
+import com.fisma.fishmarket.databinding.FragmentAkunBinding
 import com.inyongtisto.myhelper.extension.getInitial
 import com.inyongtisto.myhelper.extension.intentActivity
 import com.inyongtisto.myhelper.extension.pushActivity

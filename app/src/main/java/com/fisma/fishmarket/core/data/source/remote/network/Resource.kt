@@ -1,4 +1,4 @@
-package com.inyongtisto.fishmarket.core.data.source.remote.network
+package com.fisma.fishmarket.core.data.source.remote.network
 
 data class Resource<out T>(val state: State, val data: T?, val message: String?) {
 

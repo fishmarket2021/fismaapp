@@ -1,8 +1,9 @@
-package com.inyongtisto.fishmarket
+package com.fisma.fishmarket
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.fisma.fishmarket.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

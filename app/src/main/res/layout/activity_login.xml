@@ -54,7 +54,8 @@
             android:layout_gravity="end"
             android:layout_marginVertical="@dimen/_15sdp"
             android:text="Lupa kata sandi?"
-            android:textColor="@color/colorPrimary" />
+            android:textColor="@color/biru_utama" />
+
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_masuk"
@@ -126,7 +127,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Daftar"
-                android:textColor="@color/colorPrimary" />
+                android:textColor="@color/biru_utama" />
 
         </LinearLayout>
 

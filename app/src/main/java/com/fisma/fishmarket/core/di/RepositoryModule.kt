@@ -1,6 +1,6 @@
-package com.inyongtisto.fishmarket.core.di
+package com.fisma.fishmarket.core.di
 
-import com.inyongtisto.fishmarket.core.data.repository.AppRepository
+import com.fisma.fishmarket.core.data.repository.AppRepository
 import org.koin.dsl.module
 
 val repositoryModule = module {

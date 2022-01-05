@@ -1,11 +1,11 @@
-package com.inyongtisto.fishmarket.ui.home.adapter
+package com.fisma.fishmarket.ui.home.adapter
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.inyongtisto.fishmarket.core.data.source.model.Category
-import com.inyongtisto.fishmarket.databinding.ItemHomeCategoryBinding
+import com.fisma.fishmarket.core.data.source.model.Category
+import com.fisma.fishmarket.databinding.ItemHomeCategoryBinding
 
 @SuppressLint("NotifyDataSetChanged")
 class CategoryAdapter : RecyclerView.Adapter<CategoryAdapter.ViewHolder>() {
